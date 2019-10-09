@@ -73,7 +73,6 @@
             </div>
         </div>
     </div> <!-- End header area -->
-    
     <div class="site-branding-area">
         <div class="container">
             <div class="row">
@@ -112,10 +111,4 @@
                 </div>  
             </div>
         </div>
-    </div> <!-- End mainmenu area --><!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Hcode Store</title>
-    </head>
-    <body>
+    </div> <!-- End mainmenu area -->
