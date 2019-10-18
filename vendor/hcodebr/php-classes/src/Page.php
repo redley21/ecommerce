@@ -34,7 +34,7 @@ class Page {
     private function setData($data = array())
     {
         foreach ($data as $key => $value) {
-            $this->tplassign(key, $value);
+            $this->tpl->assign($key, $value);
         }
     }
 
