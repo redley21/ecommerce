@@ -11,7 +11,7 @@
 
        switch ($method){
            case "get":
-                return $this->values[$fieldName];
+                return (isset($this->values[$fieldName])) ? $this->values[$fieldName] : NULL;
 
            break;
 
@@ -24,7 +24,7 @@
     }
     public function setData($data = array()){
         foreach ($data as $key => $value) {
-         $this->{"set".$key}($value);
+         $this->{"set". $key}($value);
         }
     }
     public function getValues(){
